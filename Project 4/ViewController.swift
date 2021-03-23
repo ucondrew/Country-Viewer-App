@@ -12,7 +12,7 @@ class ViewController: UITableViewController { //using a tableView instead of a s
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Flag Viewer"
+        title = "Country Flag Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true //title in navigation bar will appear large when possible
         
         let fm = FileManager.default
